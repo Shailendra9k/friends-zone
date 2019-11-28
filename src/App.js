@@ -12,12 +12,12 @@ const PersonList = () => {
     },
     {
       img: 34,
-      name: "Dhiraj",
+      name: "John",
       job: "product manager"
     },
     {
       img: 56,
-      name: "Dilip",
+      name: "Bob",
       job: "designer"
     }
   ];
