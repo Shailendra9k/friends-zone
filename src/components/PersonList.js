@@ -5,7 +5,7 @@ const PersonList = () => {
   const people = [
     {
       img: 22,
-      name: "Shailendra",
+      name: "Maxim",
       job: "developer"
     },
     {
