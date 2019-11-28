@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Friends-Zone Intro
 
-This project is created to keep records of friends with basic information of friends with their photo and contact details.
+This project is created to keep records of friends with basic information of friends with their photo name and job details.
 
 ### Create app
 
