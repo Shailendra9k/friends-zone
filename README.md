@@ -1,5 +1,59 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Friends-Zone Intro
+
+This project is created to keep records of friends with basic information of friends with their photo and contact details.
+
+### Create app
+
+Here, going to use `create-react-app  friends-list `to create app inorder to create project and get all the libraries that we want to go along with project. 
+
+This will be autmotically done when this commands completed.
+
+Then I pushed this with in `GitHub` so for its deployment and more.
+### What components?
+
+As per the need of the project we are going to create three components that fulfil our project goal.
+          `App component as our main root component
+          PersonList to create list of friends
+          Person component as our most child component`
+So that shows we are going to have nested componets like upper to App, PersonList and finally Person.
+
+We'll be doing most of our work in `Person` component.
+
+### Person component
+
+We'll start working from this component.
+So, we need person name, image and occupation here. 
+
+For getting name and image we can use source `https://randomuser.me/documentation
+
+"https://randomuser.me/api/portraits/thumb/men/22.jpg"`.
+Here, we can find random user and just changing number in the list we can have as many different person images as we want also we can change their gender manually.
+
+Then we'll return `img and h4 tag` for person image, name and occupation.
+
+### PersonList component
+Here, we will create a list of people that we want to return.
+For that we create an arrary with three different peoperties and their corresponding values.
+
+As per our need it will be something like `[img: , name: '', job: '']`.
+Then we will pass this array as value to the props created for person component.
+
+### Stylying section
+In this section, we perform various styling to our content.
+
+We start styling first for whole content where we set `margin, padding, and box-sizing`.
+
+Then next we do styling for whole nesting for `class person`.
+Now styling to `img` followed by `h4` where we style our name and job title.
+
+Also, we will implement `hoover` so when we put our cursor over it we can see effect on selected image.
+
+
+
+### Default Scripts 
+
 ## Available Scripts
 
 In the project directory, you can run:
